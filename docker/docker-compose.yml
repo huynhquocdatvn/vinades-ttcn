@@ -56,7 +56,7 @@ services:
   # phpMyAdmin
   phpmyadmin:
     container_name: ttcn_phpmyadmin
-    image: phpmyadmin:latest
+    image: phpmyadmin:apache
     environment:
       PMA_HOST: ttcn_db
       PMA_USER: root
